@@ -57,3 +57,20 @@ a:hover {
 .modal-body img {
 max-width: 50px;
 }
+
+/*carousel*/
+
+.my-carousel {
+    padding: 0;
+}
+
+.my-carousel .carousel-item {
+display: flex;
+max-height: 500px;
+}
+
+.my-carousel .carousel-item img {
+    object-fit: cover;
+}
+
+/*carousel*/
