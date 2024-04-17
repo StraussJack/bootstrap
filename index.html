@@ -55,12 +55,59 @@
                         </ul>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link active " aria-current="page" href="#"><i
-                                class="fa-solid fa-cart-shopping"></i></a>
+                        <a class="nav-link active " aria-current="page" href="#" data-bs-toggle="modal"
+                            data-bs-target="#modal-cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <div class="modal fade" id="modal-cart" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <div class="modal-header  bg-secondary text-white">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Корзина</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <table class="table">
+
+                                            <tr>
+                                                <tr>
+                                                    <td><img src="https://avatars.dzeninfra.ru/get-zen_doc/9852052/pub_64bcefda953ef56ce2c4fba0_64bd12d48809c82f5b81ae0c/scale_1200"
+                                                            alt="Фальчион"></td>
+                                                    <td>Фальчион</td>
+                                                    <td>300Р</td>
+                                                    <td>1шт</td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td><img src="https://avatars.dzeninfra.ru/get-zen_doc/9852052/pub_64bcefda953ef56ce2c4fba0_64bd12d48809c82f5b81ae0c/scale_1200"
+                                                            alt="Фальчион"></td>
+                                                    <td>Фальчион</td>
+                                                    <td>300Р</td>
+                                                    <td>1шт</td>
+                                                    </tr>
+                                                    <tr>
+                                                    <td><img src="https://avatars.dzeninfra.ru/get-zen_doc/9852052/pub_64bcefda953ef56ce2c4fba0_64bd12d48809c82f5b81ae0c/scale_1200"
+                                                            alt="Фальчион"></td>
+                                                    <td>Фальчион</td>
+                                                    <td>300Р</td>
+                                                    <td>1шт</td>
+                                                </tr>
+
+                                            </tbody> 
+                                        </table>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link active " aria-current="page" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <a class="nav-link active " aria-current="page" href="#"><i
+                                class="fa-solid fa-magnifying-glass"></i></a>
 
                     </li>
 
